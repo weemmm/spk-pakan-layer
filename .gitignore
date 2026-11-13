@@ -1,0 +1,38 @@
+# Environment variables & secrets
+.env
+.env.local
+.streamlit/secrets.toml
+secrets.toml
+*.pem
+
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Local Database Cache & Temporary files
+*.sqlite
+*.sqlite3
+*.db
+riwayat_cache.sqlite
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Test & Coverage cache
+.pytest_cache/
+.coverage
+htmlcov/
+
